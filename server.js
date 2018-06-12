@@ -2,7 +2,7 @@ const Koa = require('koa')
 const Router = require('koa-router')
 const Logger = require('koa-logger')
 const Cors = require('@koa/cors')
-const BodyParser = require('koa-bodyparser')
+const BodyParser = require('koa-better-body')
 const Helmet = require('koa-helmet')
 const respond = require('koa-respond')
 
@@ -17,7 +17,6 @@ if (process.env.NODE_ENV === 'development') {
 
 app.use(Cors())
 app.use(BodyParser({
-  enableTypes: ['json'],
   jsonLimit: '5mb',
   strict: true,
   onerror: function (err, ctx) {
