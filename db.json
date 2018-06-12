@@ -1,0 +1,18 @@
+{
+  "tasks": [{
+    "id": 1,
+    "device": "箱变22#",
+    "longitude": 111.899,
+    "latitude": 27.184
+  },{
+    "id": 2,
+    "device": "箱变23#",
+    "longitude": 111.897,
+    "latitude": 27.183
+  },{
+    "id": 3,
+    "device": "箱变24#",
+    "longitude": 110.479,
+    "latitude": 27.8011
+  }]
+}
